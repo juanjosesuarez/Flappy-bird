@@ -5,6 +5,15 @@
     <image name="fLAPPY ORANGE TITLE SCREEN real">
       <file name="fLAPPY ORANGE TITLE SCREEN real.png" size="84335" />
     </image>
+    <image name="download">
+      <file name="download.png" size="39796" />
+    </image>
+    <image name="Capture">
+      <file name="Capture.PNG" size="4223" />
+    </image>
+    <image name="BackButton">
+      <file name="BackButton.png" size="159394" />
+    </image>
   </images>
   <behaviors />
 </assets>

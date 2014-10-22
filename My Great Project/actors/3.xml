@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id192306" PGFVersion="0.19" GSCVersion="0.10.5">
+<actor id="id849923" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">PLAY button</text>
+    <text id="name">Actor 3</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">216</real>
+      <real id="height">233</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,19 +18,19 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">download</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id256662" class="RuleBehavior" enabled="true">
+    <behavior id="id962509" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id101140" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+        <condition id="id766552" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -39,7 +39,7 @@
             <attributes />
           </predicate>
         </condition>
-        <condition id="id698413" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
+        <condition id="id397020" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -50,11 +50,11 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id255503" class="ChangeSceneAction" enabled="true">
+        <behavior id="id995514" class="ChangeSceneAction" enabled="true">
           <attributes>
             <text id="name">Change Scene</text>
             <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id907586</text>
+            <text id="sceneKey">id619884</text>
             <boolean id="enableAdvertisement">false</boolean>
           </attributes>
         </behavior>
@@ -72,8 +72,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">0</integer>
-        <integer id="tileHeight">0</integer>
+        <integer id="tileWidth">216</integer>
+        <integer id="tileHeight">233</integer>
       </attributes>
     </graphics>
     <motion>

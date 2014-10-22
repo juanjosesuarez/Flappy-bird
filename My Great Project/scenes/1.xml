@@ -6,8 +6,8 @@
         <actor id="id322146" prototype="id192306">
           <attributes>
             <point id="position">
-              <real id="x">238.5</real>
-              <real id="y">75.5</real>
+              <real id="x">229.5</real>
+              <real id="y">74.5</real>
             </point>
             <size id="size">
               <real id="width">120</real>
@@ -15,6 +15,36 @@
             </size>
             <angle id="rotation">0</angle>
           </attributes>
+          <behaviors>
+            <behavior id="id760127" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id356325" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="mouse" mouseState="down">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id212332" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id907586</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
           <aspects>
             <graphics>
               <attributes>
@@ -31,8 +61,8 @@
         <actor id="id976406" prototype="id774128">
           <attributes>
             <point id="position">
-              <real id="x">239.5</real>
-              <real id="y">160</real>
+              <real id="x">241.5</real>
+              <real id="y">162</real>
             </point>
             <size id="size">
               <real id="width">485</real>
@@ -46,6 +76,58 @@
                 <integer id="tileWidth" name="tileWidth">0</integer>
                 <integer id="tileHeight" name="tileHeight">0</integer>
               </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id485927" prototype="id849923">
+          <attributes>
+            <point id="position">
+              <real id="x">70.5</real>
+              <real id="y">59</real>
+            </point>
+            <size id="size">
+              <real id="width">60</real>
+              <real id="height">57</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id591959" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id310861" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="mouse" mouseState="down">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id244491" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id619884</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
             </graphics>
             <motion />
             <physics>
