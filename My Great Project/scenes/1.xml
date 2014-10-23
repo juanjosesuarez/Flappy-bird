@@ -3,27 +3,27 @@
   <layers>
     <layer id="id773112">
       <actors>
-        <actor id="id322146" prototype="id192306">
+        <actor id="id674752" prototype="id192306">
           <attributes>
             <point id="position">
-              <real id="x">229.5</real>
-              <real id="y">74.5</real>
+              <real id="x">234.5</real>
+              <real id="y">77</real>
             </point>
             <size id="size">
-              <real id="width">120</real>
-              <real id="height">37</real>
+              <real id="width">76</real>
+              <real id="height">31</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
           <behaviors>
-            <behavior id="id760127" class="RuleBehavior" enabled="true">
+            <behavior id="id919248" class="RuleBehavior" enabled="true">
               <attributes>
                 <text id="name">Rule</text>
                 <text id="bundleName">Rule.behavior</text>
                 <real id="compoundConditionKind">0</real>
               </attributes>
               <conditions>
-                <condition id="id356325" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+                <condition id="id294928" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
                   <attributes>
                     <text id="name">default name</text>
                     <index id="conditionType">0</index>
@@ -32,9 +32,18 @@
                     <attributes />
                   </predicate>
                 </condition>
+                <condition id="id306408" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="mousePosition" conditionType="over actor">
+                    <attributes />
+                  </predicate>
+                </condition>
               </conditions>
               <behaviors>
-                <behavior id="id212332" class="ChangeSceneAction" enabled="true">
+                <behavior id="id820509" class="ChangeSceneAction" enabled="true">
                   <attributes>
                     <text id="name">Change Scene</text>
                     <text id="bundleName">ChangeScene.behavior</text>
@@ -47,10 +56,7 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
+              <attributes />
             </graphics>
             <motion />
             <physics>
@@ -112,6 +118,15 @@
                     <attributes />
                   </predicate>
                 </condition>
+                <condition id="id957216" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="mousePosition" conditionType="over actor">
+                    <attributes />
+                  </predicate>
+                </condition>
               </conditions>
               <behaviors>
                 <behavior id="id244491" class="ChangeSceneAction" enabled="true">
@@ -127,7 +142,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
