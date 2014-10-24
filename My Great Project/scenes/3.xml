@@ -3,34 +3,11 @@
   <layers>
     <layer id="id903628">
       <actors>
-        <actor id="id285857" prototype="id933609">
-          <attributes>
-            <point id="position">
-              <real id="x">241.5</real>
-              <real id="y">162</real>
-            </point>
-            <size id="size">
-              <real id="width">482</real>
-              <real id="height">320</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <behaviors />
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
         <actor id="id707023" prototype="id774058">
           <attributes>
             <point id="position">
-              <real id="x">240.5</real>
-              <real id="y">105</real>
+              <real id="x">-117.5</real>
+              <real id="y">103</real>
             </point>
             <size id="size">
               <real id="width">119</real>
@@ -90,6 +67,39 @@
             </physics>
           </aspects>
         </actor>
+        <actor id="id285857" prototype="id933609">
+          <attributes>
+            <point id="position">
+              <real id="x">241</real>
+              <real id="y">163</real>
+            </point>
+            <size id="size">
+              <real id="width">482</real>
+              <real id="height">320</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">1</real>
+              <real id="blue">1</real>
+              <real id="alpha">1</real>
+            </color>
+            <image id="image">Capture</image>
+          </attributes>
+          <behaviors />
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
       </actors>
       <attributes>
         <text id="name">Background</text>
@@ -111,10 +121,10 @@
       <real id="y">0</real>
     </point>
     <color id="color">
-      <real id="red">0.976470588235294</real>
-      <real id="green">0.956862745098039</real>
-      <real id="blue">0.956862745098039</real>
-      <real id="alpha">1</real>
+      <real id="red">0.972549019607843</real>
+      <real id="green">0.952941176470588</real>
+      <real id="blue">0.952941176470588</real>
+      <real id="alpha">0.0431372549019608</real>
     </color>
     <rect id="camera">
       <point id="origin">

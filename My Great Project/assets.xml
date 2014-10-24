@@ -14,6 +14,9 @@
     <image name="BackButton">
       <file name="BackButton.png" size="159394" />
     </image>
+    <image name="Capture2">
+      <file name="Capture2.png" size="10664" />
+    </image>
   </images>
   <behaviors />
 </assets>
