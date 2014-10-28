@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor id="id774128" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Actor 2</text>
+    <text id="name">Initial scene background</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>

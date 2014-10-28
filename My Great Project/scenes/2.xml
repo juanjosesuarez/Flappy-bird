@@ -2,7 +2,115 @@
 <scene PGFVersion="0.19" GSCVersion="0.10.5" id="id907586">
   <layers>
     <layer id="id138037">
-      <actors />
+      <actors>
+        <actor id="id485271" prototype="id507143">
+          <attributes>
+            <point id="position">
+              <real id="x">239.5</real>
+              <real id="y">160</real>
+            </point>
+            <size id="size">
+              <real id="width">478</real>
+              <real id="height">318</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id164239" prototype="id243764">
+          <attributes>
+            <point id="position">
+              <real id="x">31</real>
+              <real id="y">108.5</real>
+            </point>
+            <size id="size">
+              <real id="width">57</real>
+              <real id="height">47</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id216123" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id513795" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">space</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id879763" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">90</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">150</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id868566" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">0</index>
+                <real id="interval">0.5</real>
+                <boolean id="runToCompletion">false</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id443178" class="MoveToBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move To</text>
+                    <text id="bundleName">MoveTo.behavior</text>
+                    <boolean id="runToCompletion">false</boolean>
+                    <point id="position">
+                      <real id="x">
+                        <expression>
+                          <reference keypath="self.attributes.position.x" />
+                        </expression>
+                      </real>
+                      <real id="y">0</real>
+                    </point>
+                    <index id="space">1</index>
+                    <real id="speed">800</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
       <attributes>
         <text id="name">Background</text>
         <boolean id="scrollable">true</boolean>
