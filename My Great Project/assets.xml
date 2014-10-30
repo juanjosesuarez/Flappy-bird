@@ -26,6 +26,9 @@
     <image name="real og">
       <file name="real og.png" size="1627367" />
     </image>
+    <image name="banana-vectordelicate-fruit">
+      <file name="banana-vectordelicate-fruit.png" size="100664" />
+    </image>
   </images>
   <behaviors />
 </assets>
