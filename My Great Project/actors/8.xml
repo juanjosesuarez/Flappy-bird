@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor id="id141765" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Actor 4</text>
+    <text id="name">Tube 1</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -22,7 +22,18 @@
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors />
+  <behaviors>
+    <behavior id="id392881" class="MoveBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move</text>
+        <text id="bundleName">Move.behavior</text>
+        <angle id="direction">270</angle>
+        <index id="space">0</index>
+        <index id="moveType">0</index>
+        <real id="speed">25</real>
+      </attributes>
+    </behavior>
+  </behaviors>
   <aspects>
     <graphics>
       <attributes>
