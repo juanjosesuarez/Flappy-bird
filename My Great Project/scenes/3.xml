@@ -3,6 +3,28 @@
   <layers>
     <layer id="id903628">
       <actors>
+        <actor id="id685515" prototype="id210316">
+          <attributes>
+            <point id="position">
+              <real id="x">241</real>
+              <real id="y">158</real>
+            </point>
+            <size id="size">
+              <real id="width">483</real>
+              <real id="height">322</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
         <actor id="id707023" prototype="id774058">
           <attributes>
             <point id="position">

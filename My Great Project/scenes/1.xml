@@ -164,7 +164,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Initial Scene</text>
+    <text id="name">Main Menu scene</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
