@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id360241" PGFVersion="0.19" GSCVersion="0.10.5">
+<actor id="id210316" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Menu button</text>
+    <text id="name">Instruction scene real background</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">450</real>
+      <real id="height">306</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,49 +18,11 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">Capture</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors>
-    <behavior id="id778247" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id727800" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="mouse" mouseState="down">
-            <attributes />
-          </predicate>
-        </condition>
-        <condition id="id779534" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="mousePosition" conditionType="over actor">
-            <attributes />
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id243938" class="ChangeSceneAction" enabled="true">
-          <attributes>
-            <text id="name">Change Scene</text>
-            <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id816858</text>
-            <boolean id="enableAdvertisement">false</boolean>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-  </behaviors>
+  <behaviors />
   <aspects>
     <graphics>
       <attributes>
@@ -72,8 +34,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">0</integer>
-        <integer id="tileHeight">0</integer>
+        <integer id="tileWidth">450</integer>
+        <integer id="tileHeight">306</integer>
       </attributes>
     </graphics>
     <motion>

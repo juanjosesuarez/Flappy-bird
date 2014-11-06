@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id585668" PGFVersion="0.19" GSCVersion="0.10.5">
+<actor id="id687524" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Spawner Tube 1</text>
+    <text id="name">Spawner Tube 2</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -22,32 +22,7 @@
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors>
-    <behavior id="id356116" class="TimerBehavior" enabled="true">
-      <attributes>
-        <text id="name">Timer</text>
-        <text id="bundleName">Timer.behavior</text>
-        <index id="timerType">0</index>
-        <real id="interval">9</real>
-        <boolean id="runToCompletion">false</boolean>
-      </attributes>
-      <behaviors>
-        <behavior id="id883684" class="SpawnAction" enabled="true">
-          <attributes>
-            <text id="name">Spawn Actor</text>
-            <text id="bundleName">Spawn.behavior</text>
-            <text id="prototypeKey">id141765</text>
-            <angle id="direction">0</angle>
-            <index id="directionSpace">0</index>
-            <real id="x">0</real>
-            <real id="y">0</real>
-            <index id="positionSpace">0</index>
-            <index id="layerOrder">0</index>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-  </behaviors>
+  <behaviors />
   <aspects>
     <graphics>
       <attributes>

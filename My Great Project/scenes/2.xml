@@ -102,6 +102,64 @@
                 </behavior>
               </behaviors>
             </behavior>
+            <behavior id="id362993" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">1</real>
+              </attributes>
+              <conditions>
+                <condition id="id233820" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id141765</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id724873" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id230645</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id332729" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id991796</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id723549" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id116829</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
           </behaviors>
           <aspects>
             <graphics>
@@ -119,12 +177,12 @@
         <actor id="id829224" prototype="id141765">
           <attributes>
             <point id="position">
-              <real id="x">101.930259935958</real>
-              <real id="y">238.938924467885</real>
+              <real id="x">80.930259935958</real>
+              <real id="y">255.438924467885</real>
             </point>
             <size id="size">
-              <real id="width">174.651976860101</real>
-              <real id="height">54.2201754662139</real>
+              <real id="width">135.651976860101</real>
+              <real id="height">34.2201754662139</real>
             </size>
             <angle id="rotation">-90</angle>
           </attributes>
@@ -156,12 +214,12 @@
         <actor id="id980757" prototype="id230645">
           <attributes>
             <point id="position">
-              <real id="x">242.238062283737</real>
-              <real id="y">88.9536332179931</real>
+              <real id="x">246.218685121107</real>
+              <real id="y">89.189965397924</real>
             </point>
             <size id="size">
               <real id="width">188.901002723296</real>
-              <real id="height">48</real>
+              <real id="height">30.032536133737</real>
             </size>
             <angle id="rotation">91.507435758775</angle>
           </attributes>
@@ -193,12 +251,12 @@
         <actor id="id130141" prototype="id991796">
           <attributes>
             <point id="position">
-              <real id="x">410.532502810041</real>
-              <real id="y">239.04243162233</real>
+              <real id="x">435.9032409142</real>
+              <real id="y">238.687804421131</real>
             </point>
             <size id="size">
               <real id="width">174.875393370143</real>
-              <real id="height">51</real>
+              <real id="height">33.7269086358179</real>
             </size>
             <angle id="rotation">-87.6467031338917</angle>
           </attributes>
@@ -272,6 +330,50 @@
                 <integer id="tileWidth" name="tileWidth">0</integer>
                 <integer id="tileHeight" name="tileHeight">0</integer>
               </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id431343" prototype="id403299">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">336</real>
+            </point>
+            <size id="size">
+              <real id="width">485</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id308562" prototype="id403299">
+          <attributes>
+            <point id="position">
+              <real id="x">239</real>
+              <real id="y">-16.5</real>
+            </point>
+            <size id="size">
+              <real id="width">483</real>
+              <real id="height">32</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
             </graphics>
             <motion />
             <physics>

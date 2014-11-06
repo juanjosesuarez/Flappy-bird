@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id231415" PGFVersion="0.19" GSCVersion="0.10.5">
+<actor id="id360241" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Play again button</text>
+    <text id="name">Menu button</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -23,14 +23,14 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id587102" class="RuleBehavior" enabled="true">
+    <behavior id="id778247" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id464944" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+        <condition id="id727800" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -39,7 +39,7 @@
             <attributes />
           </predicate>
         </condition>
-        <condition id="id205392" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
+        <condition id="id779534" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -50,11 +50,11 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id193285" class="ChangeSceneAction" enabled="true">
+        <behavior id="id243938" class="ChangeSceneAction" enabled="true">
           <attributes>
             <text id="name">Change Scene</text>
             <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id907586</text>
+            <text id="sceneKey">id816858</text>
             <boolean id="enableAdvertisement">false</boolean>
           </attributes>
         </behavior>
