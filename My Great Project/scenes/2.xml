@@ -248,43 +248,6 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id130141" prototype="id991796">
-          <attributes>
-            <point id="position">
-              <real id="x">435.9032409142</real>
-              <real id="y">238.687804421131</real>
-            </point>
-            <size id="size">
-              <real id="width">174.875393370143</real>
-              <real id="height">33.7269086358179</real>
-            </size>
-            <angle id="rotation">-87.6467031338917</angle>
-          </attributes>
-          <behaviors>
-            <behavior id="id218245" class="MoveBehavior" enabled="true">
-              <attributes>
-                <text id="name">Move</text>
-                <text id="bundleName">Move.behavior</text>
-                <angle id="direction">270</angle>
-                <index id="space">0</index>
-                <index id="moveType">0</index>
-                <real id="speed">25</real>
-              </attributes>
-            </behavior>
-          </behaviors>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
         <actor id="id622641" prototype="id585668">
           <attributes>
             <point id="position">
@@ -351,7 +314,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -371,6 +337,43 @@
             </size>
             <angle id="rotation">0</angle>
           </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id802917" prototype="id141765">
+          <attributes>
+            <point id="position">
+              <real id="x">407.946457268079</real>
+              <real id="y">254.764499634771</real>
+            </point>
+            <size id="size">
+              <real id="width">143.470579632307</real>
+              <real id="height">30.0085466963788</real>
+            </size>
+            <angle id="rotation">-89.5103044068708</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id290081" class="MoveBehavior" enabled="true">
+              <attributes>
+                <text id="name">Move</text>
+                <text id="bundleName">Move.behavior</text>
+                <angle id="direction">270</angle>
+                <index id="space">0</index>
+                <index id="moveType">0</index>
+                <real id="speed">25</real>
+              </attributes>
+            </behavior>
+          </behaviors>
           <aspects>
             <graphics>
               <attributes />
