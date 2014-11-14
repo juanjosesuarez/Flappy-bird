@@ -251,8 +251,8 @@
         <actor id="id622641" prototype="id585668">
           <attributes>
             <point id="position">
-              <real id="x">505</real>
-              <real id="y">232</real>
+              <real id="x">507</real>
+              <real id="y">281</real>
             </point>
             <size id="size">
               <real id="width">51</real>
@@ -260,7 +260,32 @@
             </size>
             <angle id="rotation">0</angle>
           </attributes>
-          <behaviors />
+          <behaviors>
+            <behavior id="id397972" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">0</index>
+                <real id="interval">6</real>
+                <boolean id="runToCompletion">true</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id401699" class="SpawnAction" enabled="true">
+                  <attributes>
+                    <text id="name">Spawn Actor</text>
+                    <text id="bundleName">Spawn.behavior</text>
+                    <text id="prototypeKey">id141765</text>
+                    <angle id="direction">270</angle>
+                    <index id="directionSpace">0</index>
+                    <real id="x">0</real>
+                    <real id="y">0</real>
+                    <index id="positionSpace">0</index>
+                    <index id="layerOrder">0</index>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
           <aspects>
             <graphics>
               <attributes>
@@ -277,8 +302,8 @@
         <actor id="id993789" prototype="id687524">
           <attributes>
             <point id="position">
-              <real id="x">506.5</real>
-              <real id="y">90.5</real>
+              <real id="x">507.5</real>
+              <real id="y">33.5</real>
             </point>
             <size id="size">
               <real id="width">54</real>
@@ -286,7 +311,32 @@
             </size>
             <angle id="rotation">0</angle>
           </attributes>
-          <behaviors />
+          <behaviors>
+            <behavior id="id659592" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">0</index>
+                <real id="interval">5</real>
+                <boolean id="runToCompletion">true</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id390632" class="SpawnAction" enabled="true">
+                  <attributes>
+                    <text id="name">Spawn Actor</text>
+                    <text id="bundleName">Spawn.behavior</text>
+                    <text id="prototypeKey">id230645</text>
+                    <angle id="direction">90</angle>
+                    <index id="directionSpace">0</index>
+                    <real id="x">0</real>
+                    <real id="y">0</real>
+                    <index id="positionSpace">0</index>
+                    <index id="layerOrder">0</index>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
           <aspects>
             <graphics>
               <attributes>
@@ -376,7 +426,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
